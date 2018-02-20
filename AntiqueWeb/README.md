@@ -1,2 +1,2 @@
-#Brief description
-This website is ment to [briefly] describe me as an artist, as well as a programmer.
+# About the website
+This website is ment to **briefly** describe me as an artist, as well as a programmer.

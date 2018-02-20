@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,3 +19,4 @@ import { NavbarComponent } from './navbar/navbar.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+ 

@@ -42,7 +42,7 @@
       float: left;
   }
   .header-left{
-      width: 30%;
+      width: 20%;
   }
   .header-right label{
       position: absolute;
@@ -93,14 +93,14 @@
       display: inline-block;
       font-size: 30px;
       line-height: 40px;
-      padding: 0 2em;
+      padding: 0.4em 2em;
       -webkit-transition: all .3s ease;
   }
   nav>a:hover{
       background: rgba(101, 44, 235, 0.9);
       color: rgb(190, 138, 138);
       font-weight: 400;
-      line-height: 60px;
+      line-height: 50px;
   }
   .hidden-desktop{
       display: none;

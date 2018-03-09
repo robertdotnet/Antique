@@ -1,15 +1,20 @@
-#div-display{
+#div-display {
 	text-align: center;
 	padding-top: 6em;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#a-display{
+#a-display {
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 1em;
 	padding-right: 1em;
+}
+
+#element {
+	padding-left: 7em;
+	padding-bottom: 1em;
 }
 
 .center-items {
@@ -26,7 +31,8 @@
 }
 
 .post1:hover .post2{
-	width: 260px;
+	width: 440px;
+	background: red;
 }
 
 .post1 img {
@@ -45,7 +51,7 @@
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-	transition: 2s ease-in-out;
+	transition: 0.4s ease-in-out;
 }
 
 .post2 h2{
@@ -53,4 +59,10 @@
 	font-size:40px;
 	border: 3px solid white;
 	padding: 10px 30px;
+}
+
+.post2 p{
+	color: white;
+	font-size: 15px;
+	background: orangered;
 }

@@ -1,20 +1,24 @@
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { MusicComponent } from './music/music.component';
+import { HomeComponent } from './pages/home/home.component';
+import { MusicComponent } from './pages/music/music.component';
+import { MentaldisorderComponent } from './pages/mentaldisorder/mentaldisorder.component';
 
-const routes :Routes = [
+const routes: Routes = [
     {
-        path:"", component: HomeComponent
+        path: '', component: HomeComponent
     },
     {
-        path:"#", component: HomeComponent
+        path: '#', component: HomeComponent
     },
     {
-        path:"home", component: HomeComponent
+        path: 'home', component: HomeComponent
     },
     {
-        path:"music", component: MusicComponent
+        path: 'music', component: MusicComponent
+    },
+    {
+        path: 'mentaldisorder', component: MentaldisorderComponent
     }
-]
+];
 
 export const routing  = RouterModule.forRoot(routes);

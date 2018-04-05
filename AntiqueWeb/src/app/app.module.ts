@@ -5,8 +5,10 @@ import {routing} from './app.routes';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { HomeComponent } from './home/home.component';
-import { MusicComponent } from './music/music.component';
+import { HomeComponent } from './pages/home/home.component';
+import { MusicComponent } from './pages/music/music.component';
+import { MentaldisorderComponent } from './pages/mentaldisorder/mentaldisorder.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -15,7 +17,9 @@ import { MusicComponent } from './music/music.component';
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    MusicComponent
+    MusicComponent,
+    MentaldisorderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

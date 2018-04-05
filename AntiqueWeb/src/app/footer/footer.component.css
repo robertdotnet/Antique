@@ -1,0 +1,19 @@
+.center {
+    padding-top: 300px;
+    padding-bottom: 50px;
+    text-align:center;
+    
+    
+}
+
+.sizeable {
+    height: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.sizeablegit {
+    height: 91px;
+    padding-left: 40px;
+    padding-right: 40px;
+}

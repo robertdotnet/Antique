@@ -2,6 +2,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { MusicComponent } from './pages/music/music.component';
 import { MentaldisorderComponent } from './pages/mentaldisorder/mentaldisorder.component';
+import { AboutComponent } from './pages/about/about.component';
 
 const routes: Routes = [
     {
@@ -18,6 +19,9 @@ const routes: Routes = [
     },
     {
         path: 'mentaldisorder', component: MentaldisorderComponent
+    },
+    {
+        path: 'about', component: AboutComponent
     }
 ];
 
